@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "XN17 BLOG"
 theme = "fuji"
 
-publishDir = "docs"
+publishDir = "."
 
 showLicense = false # Enable or disable license for all post
 showToc = false # Enable or disable ToC for all post
