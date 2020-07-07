@@ -1,0 +1,43 @@
+baseURL = "https://xn17.github.io/blog/"
+languageCode = "en-us"
+title = "XN17 BLOG"
+theme = "fuji"
+
+
+showLicense = false # Enable or disable license for all post
+showToc = false # Enable or disable ToC for all post
+
+showComments = false # Do not show comments in this post
+
+
+
+[menu]
+  [[menu.nav]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "Posts"
+    url = "/post/"
+    weight = 2
+  [[menu.nav]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.nav]]
+    name = "Search"
+    url = "/search/"
+    weight = 4
+  [[menu.nav]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 5
+
+  [[menu.link]]
+    name = "GitHub"
+    url = "https://github.com/XN17"
+    weight = 1
+  [[menu.link]]
+    name = "mastadon"
+    url = "https://fosstodon.org/@xn17"
+    weight = 2
